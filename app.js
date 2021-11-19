@@ -1,6 +1,3 @@
-var message = 'Hello Node!';
+const Game = require('./lib/Game.js');
 
-var sum = 5 + 3;
-
-console.log(message);
-console.log(sum);
+new Game().initializeGame();
